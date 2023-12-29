@@ -99,4 +99,21 @@ public class SIS {
             System.out.println();
         }
     }
+
+     public void assignTeacger(){
+        TeacherAssignment teacherAssignment = new TeacherAssignment();
+        System.out.println("Enter course Id:");
+        String courseCode = input.nextLine();
+
+        System.out.println("Enter teacher name :");
+        String teacherName = input.nextLine();
+
+        System.out.println("Enter teacher email :");
+        String teacherEmail = input.nextLine();
+
+        System.out.println("Enter department:");
+        String department = input.nextLine();
+        teacherAssignment.assignTeacherToCourse(courseCode, teacherName, teacherEmail, department);
+        
+    }
 }
