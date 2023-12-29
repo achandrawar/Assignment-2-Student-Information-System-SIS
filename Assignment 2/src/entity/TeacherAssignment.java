@@ -27,10 +27,4 @@ public class TeacherAssignment {
         }
     }
 
-    public static void main(String[] args) {
-        TeacherAssignment teacherAssignment = new TeacherAssignment();
-
-        // Example usage
-        teacherAssignment.assignTeacherToCourse("CS302", "Sarah Smith", "sarah.smith@example.com", "Computer Science");
-    }
 }
